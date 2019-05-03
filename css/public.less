@@ -1,0 +1,63 @@
+.font(@size, @weight, @height) {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-size: @size;
+    font-weight: @weight;
+    line-height: @height;
+}
+
+header {
+    background: #0091ea;
+
+    .nav-wrap {
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 0;
+        border: none;
+        margin-bottom: 0;
+
+        .navigation {
+            padding: 27px 0;
+
+            .navbar-header {
+                .logo {
+                    color: #fff;
+                    .font(36px, 600, 20px);
+                }
+            }
+
+            .navbar-menu {
+                ul {
+
+                    li {
+                        margin-left: 10px;
+
+                        a {
+                            color: #fff;
+                            .font(14px, 400, 20px);
+                        }
+                    }
+
+                    li:hover {
+                        background: #fff;
+                        border-radius: 18px;
+
+                        a {
+                            color: #0091ea;
+                            background-color: rgba(0, 0, 0, 0);
+                        }
+                    }
+
+                    li.active {
+                        background: #fff;
+                        border-radius: 18px;
+
+                        a {
+                            color: #0091ea;
+                            background-color: rgba(0, 0, 0, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

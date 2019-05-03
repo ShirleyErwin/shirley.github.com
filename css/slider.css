@@ -1,0 +1,53 @@
+.banner_slider{
+	position: relative;
+	margin:0 auto;
+	width:100%;
+	overflow:hidden;
+}
+.banner_slider_pics{
+	width:500%;
+	margin:0 auto;
+	position: relative;
+	left:-100%;
+}
+.banner_slider_pics .cards{
+	width: 20%;
+	display: block;
+	float: left;
+	text-align:center;
+}
+/* 上一张，下一张按钮样式 */
+.banner_slider_arrow{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 50%;
+	margin-bottom: -20px;
+	
+}
+.banner_slider_arrow a{
+	color: #666666;
+	 background: #fff;
+	 padding: 20px;
+	 text-decoration: none;
+}
+.arrow_item{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgba(0,0,0,.6);
+	opacity: .6;
+}
+.arrow_item:hover{
+	opacity: .8;
+}
+.prev{
+	position: absolute;
+	left: 10px;
+	padding:10px 7px 10px 7px;
+}
+.next{
+	position: absolute;
+	right: 10px;
+	padding:10px 7px 10px 7px;
+}
